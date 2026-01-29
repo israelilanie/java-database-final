@@ -13,6 +13,7 @@ See [docs/USER_STORIES.md](docs/USER_STORIES.md) for the admin-focused user stor
 - **Database schema:** [docs/DATABASE_SCHEMA.md](docs/DATABASE_SCHEMA.md)
 - **REST API overview:** [docs/API.md](docs/API.md)
 - **Stored procedures:** [docs/STORED_PROCEDURES.md](docs/STORED_PROCEDURES.md)
+- **Project structure:** [docs/PROJECT_STRUCTURE.md](docs/PROJECT_STRUCTURE.md)
 
 ## Quick Start (Local)
 

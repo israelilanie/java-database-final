@@ -8,6 +8,7 @@ This project ships with a Docker Compose stack that runs:
 
 ## Run
 ```bash
+cp .env.example .env
 docker compose up --build
 ```
 
@@ -25,6 +26,10 @@ The compose file uses these defaults (override as needed):
 - `MYSQL_PASSWORD=inventory_pass`
 - `MYSQL_ROOT_PASSWORD=rootpass`
 - `MONGO_INITDB_DATABASE=reviews`
+- `SPRING_DATASOURCE_URL=jdbc:mysql://mysql:3306/inventory?...`
+- `SPRING_DATASOURCE_USERNAME=inventory_user`
+- `SPRING_DATASOURCE_PASSWORD=inventory_pass`
+- `SPRING_DATA_MONGODB_URI=mongodb://mongo:27017/reviews`
 
 ## Notes
 - The database schema and sample data are loaded from `insert_data.sql`.
